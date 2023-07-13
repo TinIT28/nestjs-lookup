@@ -1,10 +1,10 @@
 /* eslint-disable prettier/prettier */
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import * as session from "express-session";
-import * as passport from 'passport';
-import * as cookieParser from 'cookie-parser';
-import * as bodyParser from 'body-parser';
+const session = require('express-session');
+const passport = require('passport');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 import { IoAdapter } from '@nestjs/platform-socket.io';
 import { Server } from 'socket.io';
 
