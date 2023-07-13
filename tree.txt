@@ -1,0 +1,226 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 5C29-1A07
+E:.
+|   .env
+|   .eslintrc.js
+|   .gitignore
+|   .prettierrc
+|   nest-cli.json
+|   package-lock.json
+|   package.json
+|   README.md
+|   tree.txt
+|   tsconfig.build.json
+|   tsconfig.json
+|   vercel.json
+|   
++---dist
+|   |   app.controller.d.ts
+|   |   app.controller.js
+|   |   app.controller.js.map
+|   |   app.module.d.ts
+|   |   app.module.js
+|   |   app.module.js.map
+|   |   app.service.d.ts
+|   |   app.service.js
+|   |   app.service.js.map
+|   |   main.d.ts
+|   |   main.js
+|   |   main.js.map
+|   |   tsconfig.build.tsbuildinfo
+|   |   
+|   +---auth
+|   |   |   auth.controller.d.ts
+|   |   |   auth.controller.js
+|   |   |   auth.controller.js.map
+|   |   |   auth.module.d.ts
+|   |   |   auth.module.js
+|   |   |   auth.module.js.map
+|   |   |   auth.service.d.ts
+|   |   |   auth.service.js
+|   |   |   auth.service.js.map
+|   |   |   
+|   |   \---utils
+|   |           GoogleStrategy.d.ts
+|   |           GoogleStrategy.js
+|   |           GoogleStrategy.js.map
+|   |           Guards.d.ts
+|   |           Guards.js
+|   |           Guards.js.map
+|   |           JwtGuard.d.ts
+|   |           JwtGuard.js
+|   |           JwtGuard.js.map
+|   |           JwtStrategy.d.ts
+|   |           JwtStrategy.js
+|   |           JwtStrategy.js.map
+|   |           Serializer.d.ts
+|   |           Serializer.js
+|   |           Serializer.js.map
+|   |           
+|   +---cloudinary
+|   |       cloudinary.module.d.ts
+|   |       cloudinary.module.js
+|   |       cloudinary.module.js.map
+|   |       cloudinary.provider.d.ts
+|   |       cloudinary.provider.js
+|   |       cloudinary.provider.js.map
+|   |       cloudinary.service.d.ts
+|   |       cloudinary.service.js
+|   |       cloudinary.service.js.map
+|   |       contants.d.ts
+|   |       contants.js
+|   |       contants.js.map
+|   |       
+|   +---comment
+|   |   |   comment.controller.d.ts
+|   |   |   comment.controller.js
+|   |   |   comment.controller.js.map
+|   |   |   comment.module.d.ts
+|   |   |   comment.module.js
+|   |   |   comment.module.js.map
+|   |   |   comment.service.d.ts
+|   |   |   comment.service.js
+|   |   |   comment.service.js.map
+|   |   |   
+|   |   +---dto
+|   |   |       create-comment-dto.d.ts
+|   |   |       create-comment-dto.js
+|   |   |       create-comment-dto.js.map
+|   |   |       
+|   |   \---schema
+|   |           comment.schema.d.ts
+|   |           comment.schema.js
+|   |           comment.schema.js.map
+|   |           
+|   +---post
+|   |   |   post.controller.d.ts
+|   |   |   post.controller.js
+|   |   |   post.controller.js.map
+|   |   |   post.gateway.d.ts
+|   |   |   post.gateway.js
+|   |   |   post.gateway.js.map
+|   |   |   post.module.d.ts
+|   |   |   post.module.js
+|   |   |   post.module.js.map
+|   |   |   post.service.d.ts
+|   |   |   post.service.js
+|   |   |   post.service.js.map
+|   |   |   
+|   |   +---dto
+|   |   |       create-post-dto.d.ts
+|   |   |       create-post-dto.js
+|   |   |       create-post-dto.js.map
+|   |   |       update-post-dto.d.ts
+|   |   |       update-post-dto.js
+|   |   |       update-post-dto.js.map
+|   |   |       
+|   |   \---schema
+|   |           post.schema.d.ts
+|   |           post.schema.js
+|   |           post.schema.js.map
+|   |           
+|   +---user
+|   |   |   user.controller.d.ts
+|   |   |   user.controller.js
+|   |   |   user.controller.js.map
+|   |   |   user.gateway.d.ts
+|   |   |   user.gateway.js
+|   |   |   user.gateway.js.map
+|   |   |   user.module.d.ts
+|   |   |   user.module.js
+|   |   |   user.module.js.map
+|   |   |   user.service.d.ts
+|   |   |   user.service.js
+|   |   |   user.service.js.map
+|   |   |   
+|   |   +---dto
+|   |   |       create-user-dto.d.ts
+|   |   |       create-user-dto.js
+|   |   |       create-user-dto.js.map
+|   |   |       login-user-dto.d.ts
+|   |   |       login-user-dto.js
+|   |   |       login-user-dto.js.map
+|   |   |       update-user-dto.d.ts
+|   |   |       update-user-dto.js
+|   |   |       update-user-dto.js.map
+|   |   |       
+|   |   \---schema
+|   |           user.schema.d.ts
+|   |           user.schema.js
+|   |           user.schema.js.map
+|   |           
+|   \---utils
+|           types.d.ts
+|           types.js
+|           types.js.map
+|           
++---src
+|   |   app.controller.spec.ts
+|   |   app.controller.ts
+|   |   app.module.ts
+|   |   app.service.ts
+|   |   main.ts
+|   |   
+|   +---auth
+|   |   |   auth.controller.ts
+|   |   |   auth.module.ts
+|   |   |   auth.service.ts
+|   |   |   
+|   |   \---utils
+|   |           GoogleStrategy.ts
+|   |           Guards.ts
+|   |           JwtGuard.ts
+|   |           JwtStrategy.ts
+|   |           Serializer.ts
+|   |           
+|   +---cloudinary
+|   |       cloudinary.module.ts
+|   |       cloudinary.provider.ts
+|   |       cloudinary.service.ts
+|   |       contants.ts
+|   |       
+|   +---comment
+|   |   |   comment.controller.ts
+|   |   |   comment.module.ts
+|   |   |   comment.service.ts
+|   |   |   
+|   |   +---dto
+|   |   |       create-comment-dto.ts
+|   |   |       
+|   |   \---schema
+|   |           comment.schema.ts
+|   |           
+|   +---post
+|   |   |   post.controller.ts
+|   |   |   post.gateway.ts
+|   |   |   post.module.ts
+|   |   |   post.service.ts
+|   |   |   
+|   |   +---dto
+|   |   |       create-post-dto.ts
+|   |   |       update-post-dto.ts
+|   |   |       
+|   |   \---schema
+|   |           post.schema.ts
+|   |           
+|   +---user
+|   |   |   user.controller.ts
+|   |   |   user.gateway.ts
+|   |   |   user.module.ts
+|   |   |   user.service.ts
+|   |   |   
+|   |   +---dto
+|   |   |       create-user-dto.ts
+|   |   |       login-user-dto.ts
+|   |   |       update-user-dto.ts
+|   |   |       
+|   |   \---schema
+|   |           user.schema.ts
+|   |           
+|   \---utils
+|           types.ts
+|           
+\---test
+        app.e2e-spec.ts
+        jest-e2e.json
+        
